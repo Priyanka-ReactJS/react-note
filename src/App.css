@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.card {
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.form {
+  margin-right: 55%;
+  margin-top: 2%;
+}
+.buttonMe {
+  margin-top: -1%;
+  margin-left: 92.5%;
+  width: 8%;
+  cursor: pointer
+}
+.buttonMe:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.textareaMe {
+  width: 100%;
+  border: none;
+}
+.inputme {
+  width: 90%;
+  border: none;
+}
+.modelFutter{
+  padding: none;
+}
+
+.boxMe {
+    text-shadow: 10 10 black;
+    box-shadow: black;
+    box-shadow: 2px 4px #969393;
+}
